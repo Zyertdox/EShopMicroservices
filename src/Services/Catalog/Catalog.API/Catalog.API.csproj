@@ -26,8 +26,4 @@
       <PackageReference Include="Marten" Version="7.31.3" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Products\GetProducts\" />
-    </ItemGroup>
-
 </Project>
