@@ -2,6 +2,20 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{9B69879C-32B4-42A6-B0F6-7757125B6144}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{E8585AA8-A5DA-4B9A-A095-40661EBF669D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{F7C25D9C-9593-4C45-B18A-F65761E362CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{5D9C9B34-DB0A-4B09-8F0C-1D7FA07FF34C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks", "BioldingBlocks\BuildingBlocks\BuildingBlocks.csproj", "{F81381FC-CC26-45A3-8284-75558B49A718}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2B7528FA-3BB9-4B86-8B69-67F242DE3537}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		docker-compose.override.yml = docker-compose.override.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +26,14 @@ Global
 		{9B69879C-32B4-42A6-B0F6-7757125B6144}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B69879C-32B4-42A6-B0F6-7757125B6144}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B69879C-32B4-42A6-B0F6-7757125B6144}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F81381FC-CC26-45A3-8284-75558B49A718}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F81381FC-CC26-45A3-8284-75558B49A718}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F81381FC-CC26-45A3-8284-75558B49A718}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F81381FC-CC26-45A3-8284-75558B49A718}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F7C25D9C-9593-4C45-B18A-F65761E362CE} = {E8585AA8-A5DA-4B9A-A095-40661EBF669D}
+		{9B69879C-32B4-42A6-B0F6-7757125B6144} = {F7C25D9C-9593-4C45-B18A-F65761E362CE}
+		{F81381FC-CC26-45A3-8284-75558B49A718} = {5D9C9B34-DB0A-4B09-8F0C-1D7FA07FF34C}
 	EndGlobalSection
 EndGlobal

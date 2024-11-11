@@ -11,6 +11,23 @@
       <Content Include="..\..\..\.dockerignore">
         <Link>.dockerignore</Link>
       </Content>
+      <Content Update="appsettings.Development.json">
+        <DependentUpon>appsettings.json</DependentUpon>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\BioldingBlocks\BuildingBlocks\BuildingBlocks.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Carter" Version="8.2.1" />
+      <PackageReference Include="Mapster" Version="7.4.0" />
+      <PackageReference Include="Marten" Version="7.31.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Products\GetProducts\" />
     </ItemGroup>
 
 </Project>
