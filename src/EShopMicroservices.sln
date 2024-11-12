@@ -16,6 +16,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		docker-compose.override.yml = docker-compose.override.yml
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{3A4026B0-20D4-4481-A082-D2C7FA88776E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,5 +37,6 @@ Global
 		{F7C25D9C-9593-4C45-B18A-F65761E362CE} = {E8585AA8-A5DA-4B9A-A095-40661EBF669D}
 		{9B69879C-32B4-42A6-B0F6-7757125B6144} = {F7C25D9C-9593-4C45-B18A-F65761E362CE}
 		{F81381FC-CC26-45A3-8284-75558B49A718} = {5D9C9B34-DB0A-4B09-8F0C-1D7FA07FF34C}
+		{3A4026B0-20D4-4481-A082-D2C7FA88776E} = {E8585AA8-A5DA-4B9A-A095-40661EBF669D}
 	EndGlobalSection
 EndGlobal
