@@ -10,7 +10,7 @@ builder.Services
        .AddInfrastructureServices(builder.Configuration)
        .AddWebServices();
 
-WebApplication app = builder.Build();
+var app = builder.Build();
 
 app.UseApiServices();
 
