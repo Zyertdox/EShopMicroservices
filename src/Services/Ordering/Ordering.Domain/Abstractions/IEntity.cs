@@ -7,8 +7,8 @@ public interface IEntity<out T> : IEntity
 
 public interface IEntity
 {
-    public DateTime? CreatedAt { get; }
-    public string? CreatedBy { get; }
-    public DateTime? ModifiedAt { get; }
-    public string? ModifiedBy { get; }
+    public DateTime? CreatedAt { set; }
+    public string? CreatedBy { set; }
+    public DateTime? ModifiedAt { set; }
+    public string? ModifiedBy { set; }
 }
