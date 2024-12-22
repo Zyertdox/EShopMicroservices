@@ -21,6 +21,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\..\..\BioldingBlocks\BuildingBlocks.Messaging\BuildingBlocks.Messaging.csproj" />
       <ProjectReference Include="..\..\..\BioldingBlocks\BuildingBlocks\BuildingBlocks.csproj" />
     </ItemGroup>
 
@@ -32,6 +33,7 @@
       <PackageReference Include="Grpc.AspNetCore" Version="2.66.0" />
       <PackageReference Include="Mapster" Version="7.4.0" />
       <PackageReference Include="Marten" Version="7.31.3" />
+      <PackageReference Include="MassTransit.Abstractions" Version="8.3.4" />
       <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="8.0.11" />
       <PackageReference Include="Scrutor" Version="5.0.2" />
     </ItemGroup>
